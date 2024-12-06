@@ -1,6 +1,6 @@
 {
-  "name": "pastebin",
-  "version": "0.0.0",
+  "name": "pastebin__frontend",
+  "version": "0.0.1",
   "private": true,
   "type": "module",
   "scripts": {

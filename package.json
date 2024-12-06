@@ -1,0 +1,18 @@
+{
+	"private": true,
+	"name": "pastebin",
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "npm run --workspaces --if-present dev",
+		"build": "npm run --workspaces --if-present build",
+		"test": "npm run --workspaces --if-present test",
+		"lint": "npm run --workspaces --if-present lint",
+		"types": "npm run --workspaces --if-present types",
+		"verify": "npm run build && npm run lint && npm run types && npm run test"
+	},
+	"workspaces": [
+		"./frontend",
+		"./backend"
+	]
+}
